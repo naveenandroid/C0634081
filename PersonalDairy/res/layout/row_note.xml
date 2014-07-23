@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="left|center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5dp"
+        android:layout_marginLeft="@dimen/_5dp"
+        android:text="@string/app_name"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/_18sp" />
+
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+           android:layout_marginLeft="@dimen/_5dp"
+         android:padding="@dimen/_5dp"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/_10sp" />
+
+</LinearLayout>

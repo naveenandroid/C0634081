@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <color name="light_transparent">#CC000000</color>
+    
+     <color name="blue">#459efc</color>
+    
+    <color name="dgray">#1E1E1E</color>
+       <color name="white">#FFFFFF</color>
+     <color name="pm_voilet">#375894</color>
+     <color name="adw_graydim">#F2F2F2</color>
+      <color name="blue_dim">#1E6586</color>
+    <color name="gray_dim">#E5E5E5</color>
+    
+    
+    
+    
+    
+</resources>

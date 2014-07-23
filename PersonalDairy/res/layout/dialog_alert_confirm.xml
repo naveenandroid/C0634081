@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- need extra "wrapping" linear layout to not make dialog fill parent's width -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:layout_marginLeft="@dimen/_15dp"
+    android:layout_marginRight="@dimen/_15dp"
+    android:background="@color/pm_voilet"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5dp"
+            android:layout_marginRight="@dimen/_5dp"
+            android:paddingBottom="@dimen/_8dp"
+            android:paddingLeft="@dimen/_3dp"
+            android:paddingTop="@dimen/_5dp" >
+
+            <TextView
+                android:id="@+id/tvCDHeader"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Edit/ Delete"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5dp"
+            android:layout_marginLeft="@dimen/_5dp"
+            android:layout_marginRight="@dimen/_5dp"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:padding="@dimen/_7dp" >
+
+                <TextView
+                    android:id="@+id/tvCDResult"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_3dp"
+                    android:text="@string/confirm_delete"
+                    android:textColor="@color/dgray"
+                    android:textSize="@dimen/_14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_dim" >
+
+                <Button
+                    android:id="@+id/btnAlertConfirm"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                     android:padding="@dimen/_5dp"
+                    android:layout_margin="@dimen/_10dp"
+                    android:layout_weight="1"
+                    android:background="#2E3841"
+                    android:gravity="center"
+                    android:text="Edit"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sp" />
+
+                <Button
+                    android:id="@+id/btnAlertCancel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_10dp"
+                    android:layout_weight="1"
+                    android:background="#2E3841"
+                    android:gravity="center"
+                    android:padding="@dimen/_5dp"
+                    android:text="Delete"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_13sp" />
+                
+                <Button
+                    android:id="@+id/btnView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_10dp"
+                    android:layout_weight="1"
+                    android:background="#2E3841"
+                    android:gravity="center"
+                    android:padding="@dimen/_5dp"
+                    android:text="View "
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_13sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
